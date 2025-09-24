@@ -1,0 +1,48 @@
+DORCAS
+------------------------------------------------------------------
+
+ssh root@91.99.229.154
+Logic@9908
+
+mysql password
+vcare@2025
+
+
+/var/www/html/
+------------------------------------------------------------------
+
+HTML
+https://dorcas.enats.co.in/
+
+REACT
+https://dorcas-app.enats.co.in/
+
+ADMIN
+https://dorcas-admin.enats.co.in/admin
+
+LARVEL
+https://dorcas-api.enats.co.in/
+
+
+------------------------------------------------------------------
+
+
+Database:
+
+Live:
+$host = 'localhost';
+$username = 'root';
+$password = 'vcare@2025'; 
+$dbname = 'db_vcare';
+
+------------------------------------------------------------------
+
+Local:
+$host = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'db_vcare';
+
+
+
+

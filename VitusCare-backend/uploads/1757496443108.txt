@@ -1,0 +1,446 @@
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 39520;
+25
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42631;
+5.0020
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '20.0000' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41269;
+30
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-1.62' WHERE `oc_customer_transaction`.`customer_transaction_id` = 40068;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-36.38' WHERE `oc_customer_transaction`.`customer_transaction_id` = 40067;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-22.5' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42045;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37821;
+15
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37880;
+34.5668
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-22' WHERE `oc_customer_transaction`.`customer_transaction_id` = 39951;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-24' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42346;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-18.3' WHERE `oc_customer_transaction`.`customer_transaction_id` = 40288;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37705;
+44.4
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 38360;
+11.6
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '37.6015' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36227;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '37.6015' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36228;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 39943;
+19.87
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-14.6' WHERE `oc_customer_transaction`.`customer_transaction_id` = 25785;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-30.55' WHERE `oc_customer_transaction`.`customer_transaction_id` = 25851;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-0.02' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33949;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-19' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33950;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-19' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33951;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-19' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33952;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31486;
+4.3600
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32847;
+24
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '1.75' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31393;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 26688;
+0.02
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-30' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32634;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '124.01' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31148;
+229.2649
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 29947;
+57.9400
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-0.4750' WHERE `oc_customer_transaction`.`customer_transaction_id` = 23193;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-32.92' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33448;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31590;
+98.1
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '4.5207' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28815;
+49.5207
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31207;
+82.8000
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-5.98' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32408;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-9.75' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36980;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '10' WHERE `oc_customer_transaction`.`customer_transaction_id` = 1932;
+16.62
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-15.75' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42527;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-23' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41321;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-12.2' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41322;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-23' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41764;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-1.4' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41765;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-2.8' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42253;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-2' WHERE `oc_customer_transaction`.`customer_transaction_id` = 39895;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 35607;
+38
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '6' WHERE `oc_customer_transaction`.`customer_transaction_id` = 39814;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 38701;
+48
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '279.8722' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34708;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-55' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36277;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '63.5090' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34401;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '67.9703' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34400;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33504;
+2
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33160;
+48
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 40392;
+14
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-12' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36523;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-1' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37333;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-0.4' WHERE `oc_customer_transaction`.`customer_transaction_id` = 38884;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 35140;
+6
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 35016;
+6
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '56.25' WHERE `oc_customer_transaction`.`customer_transaction_id` = 39208;
+35.4500
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-5' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33490;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31084;
+4
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31288;
+4.68
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31110;
+28
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-7.3560' WHERE `oc_customer_transaction`.`customer_transaction_id` = 40401;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28828;
+13
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-17.4' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34041;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31593;
+5
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '3.26' WHERE `oc_customer_transaction`.`customer_transaction_id` = 35673;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-18' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33302;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 30725;
+3.08
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-111.3' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42546;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 29227;
+14.5254
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-18.96' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31204;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-14.02' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33832;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33213;
+18.25
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28864;
+6.0814
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 26546;
+10
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 26734;
+11.8
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37089;
+20.5598
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-52.9804' WHERE `oc_customer_transaction`.`customer_transaction_id` = 23167;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28891;
+1.0100
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34926;
+18.5000
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-25.33' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37521;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31564;
+6
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-2' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36462;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33443;
+20
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 36301;
+11
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33350;
+15.6
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32719;
+69.38
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '5' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31079;
+20
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-30.4375' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41798;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-133.64' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41688;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28849;
+2.3910
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-0.3000' WHERE `oc_customer_transaction`.`customer_transaction_id` = 24502;
+-0.3
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 25184;
+20.02
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '9.0000' WHERE `oc_customer_transaction`.`customer_transaction_id` = 24666;
+20
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '54.9435' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41271;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-25' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37905;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28304;
+50.55
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 38700;
+3.8
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '14.6' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41908;
+62.5
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-41.6' WHERE `oc_customer_transaction`.`customer_transaction_id` = 42188;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 37842;
+7.7
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 31389;
+4.48
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 38035;
+30.5
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '26.58' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41479;
+34
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 28768;
+11.8
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-16.16' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41457;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-1.92' WHERE `oc_customer_transaction`.`customer_transaction_id` = 22488;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 30121;
+39.85
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-25' WHERE `oc_customer_transaction`.`customer_transaction_id` = 27153;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-0.1000' WHERE `oc_customer_transaction`.`customer_transaction_id` = 25269;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '47.9645' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34404;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '47.9645' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34403;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 27985;
+11.2
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 34810;
+1
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-16.4' WHERE `oc_customer_transaction`.`customer_transaction_id` = 22280;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 33857;
+8.5
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-69.2' WHERE `oc_customer_transaction`.`customer_transaction_id` = 41742;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-35.0108' WHERE `oc_customer_transaction`.`customer_transaction_id` = 38493;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-6.4407' WHERE `oc_customer_transaction`.`customer_transaction_id` = 40083;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-11.22' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32809;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '0' WHERE `oc_customer_transaction`.`customer_transaction_id` = 30860;
+11.02
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-7' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32027;
+0
+
+UPDATE `oc_customer_transaction` SET `amount_remaining` = '-6.1400' WHERE `oc_customer_transaction`.`customer_transaction_id` = 32246;
+-6.13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
