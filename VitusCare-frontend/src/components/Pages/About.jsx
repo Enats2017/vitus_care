@@ -193,7 +193,7 @@ export default function About() {
           data={featureListData}
         />
       </Section>
-      <Section topMd={190} topLg={145} topXl={105}>
+      {/* <Section topMd={190} topLg={145} topXl={105}>
       <div className="tabs" style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
         <h3>MEET OUR</h3>
       </div>
@@ -220,7 +220,7 @@ export default function About() {
             )}
           </div>
         ))}
-      </Section>
+      </Section> */}
       <Section topMd={170} topLg={120} topXl={80} bottomMd={100}>
         <GallerySection
           sectionTitle="Our Facilities"

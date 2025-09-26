@@ -178,13 +178,17 @@ export default function NewUnitForm({ onSuccess }) {
 
             {/* Submit Button */}
             <div className="col-lg-12">
-                <button className="cs_btn cs_style_1" type="submit">
-                    <span>Submit</span>
-                    <i>
-                        <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                        <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                    </i>
-                </button>
+            <button
+                className="cs_btn cs_style_1"
+                type="submit"
+                style={{ marginBottom: '30px' }} // <-- inline CSS here
+            >
+                <span>Submit</span>
+                <i>
+                <img src="/images/icons/arrow_white.svg" alt="Icon" />
+                <img src="/images/icons/arrow_white.svg" alt="Icon" />
+                </i>
+            </button>
             </div>
         </form>
     );

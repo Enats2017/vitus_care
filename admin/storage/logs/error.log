@@ -1,0 +1,612 @@
+2025-09-01 7:28:10 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 7:28:10 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 7:28:10 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1192
+2025-09-01 7:28:10 - PHP Unknown:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\system\helper\utf8.php on line 6
+2025-09-01 7:28:10 - PHP Warning:  Undefined array key "product_seo_url" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1196
+2025-09-01 8:34:41 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 8:34:41 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 8:34:41 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1192
+2025-09-01 8:34:41 - PHP Unknown:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\system\helper\utf8.php on line 6
+2025-09-01 8:34:41 - PHP Warning:  Undefined array key "product_seo_url" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1196
+2025-09-01 8:42:21 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 8:42:21 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 8:42:21 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1192
+2025-09-01 8:42:21 - PHP Unknown:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\system\helper\utf8.php on line 6
+2025-09-01 8:42:21 - PHP Warning:  Undefined array key "product_seo_url" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1196
+2025-09-01 8:42:26 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 8:42:26 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1182
+2025-09-01 8:42:26 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1192
+2025-09-01 8:42:26 - PHP Unknown:  mb_strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\system\helper\utf8.php on line 6
+2025-09-01 8:42:26 - PHP Warning:  Undefined array key "product_seo_url" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1196
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 5
+2025-09-01 8:55:19 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 13
+2025-09-01 8:55:19 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 13
+2025-09-01 9:03:33 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 4
+2025-09-01 9:03:33 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 4
+2025-09-01 9:04:58 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 4
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 321
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 332
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 334
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 335
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 336
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 338
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 339
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 340
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 321
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 332
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 334
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 335
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 336
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 338
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 339
+2025-09-01 9:12:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 340
+2025-09-01 9:42:56 - PHP Warning:  Undefined variable $product_info in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 536
+2025-09-01 9:45:39 - PHP Warning:  Undefined variable $product_id in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 197
+2025-09-01 9:49:27 - PHP Warning:  mysqli::query(): (42S02/1146): Table 'vitus_care.product' doesn't exist in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 555
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 563
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 571
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 579
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 587
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 595
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 603
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 611
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 645
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 653
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 665
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 677
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 685
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 685
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 693
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 701
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 709
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 717
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 729
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 737
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 745
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 757
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 765
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 773
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 781
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 793
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 803
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 811
+2025-09-01 9:49:40 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1090
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 606
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 614
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 626
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 638
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 646
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 646
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 654
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 662
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 670
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 678
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 690
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 698
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 706
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 718
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 726
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 734
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 742
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 754
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 764
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 772
+2025-09-01 9:55:42 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1051
+2025-09-01 9:55:42 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 612
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 624
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 632
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 632
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 640
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 648
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 656
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 664
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 676
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 684
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 692
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 704
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 712
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 720
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 728
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 740
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 750
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 758
+2025-09-01 9:56:21 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1037
+2025-09-01 9:56:21 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 603
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 615
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 623
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 623
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 631
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 639
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 647
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 655
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 667
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 675
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 683
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 695
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 703
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 711
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 719
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 731
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 741
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 749
+2025-09-01 9:56:32 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 1028
+2025-09-01 9:56:32 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 605
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 613
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 621
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 633
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 641
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 649
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 657
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 669
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 679
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 687
+2025-09-01 9:57:02 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 966
+2025-09-01 9:57:02 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 602
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 610
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 622
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 630
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 638
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 646
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 658
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 668
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 676
+2025-09-01 9:57:18 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 955
+2025-09-01 9:57:18 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 605
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 613
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 621
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 629
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 641
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 651
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 659
+2025-09-01 9:57:26 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 938
+2025-09-01 9:57:26 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:57:48 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 865
+2025-09-01 9:57:48 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:58:10 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\bb\bb255587bd0f626fd6d75956422bb23c.php on line 124
+2025-09-01 9:59:40 - PHP Warning:  Undefined array key "blog_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 547
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 45
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:08:55 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:08:55 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 46
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:10:06 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:10:06 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:10:13 - PHP Warning:  Array to string conversion in C:\xampp\htdocs\storage\cache\template\65\65568374cc27b50180338ce0d2a5341c.php on line 124
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 45
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:18:28 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:18:28 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 45
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:01 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:19:01 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 45
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:10 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:19:10 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 45
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:19:20 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:19:20 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 45
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "sku" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "upc" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "ean" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "jan" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "mpn" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "location" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "quantity" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "minimum" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "subtract" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "stock_status_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "date_available" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "manufacturer_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "shipping" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "points" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "weight" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "weight_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "length" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "width" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "height" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "length_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "status" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "tax_class_id" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "sort_order" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:23:26 - PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:23:26 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 16
+2025-09-01 10:31:09 - PHP Warning:  mysqli::query(): (42S22/1054): Unknown column 'description' in 'field list' in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-01 10:34:30 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:34:37 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:40:18 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:40:25 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 9
+2025-09-01 10:40:38 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:41:07 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 9
+2025-09-01 10:41:41 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:42:00 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 8
+2025-09-01 10:42:43 - PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 10
+2025-09-01 11:15:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-01 11:15:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-01 11:15:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-01 12:54:31 - PHP Warning:  Undefined array key "existing_image" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 56
+2025-09-01 12:56:53 - PHP Warning:  Undefined array key "existing_image" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 50
+2025-09-01 13:04:27 - PHP Warning:  Undefined variable $design in C:\xampp\htdocs\upload\admin\controller\common\column_left.php on line 32
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:11 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:11 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:11 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:15 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:15 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:15 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:17 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:17 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:17 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:18 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:18 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:18 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:30 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 939
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:30 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 976
+2025-09-01 13:13:30 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 978
+2025-09-01 13:16:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 938
+2025-09-01 13:16:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 973
+2025-09-01 13:16:56 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:16:56 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:16:56 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:16:56 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 977
+2025-09-01 13:16:56 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 938
+2025-09-01 13:16:57 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 973
+2025-09-01 13:16:57 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:16:57 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 974
+2025-09-01 13:16:57 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 975
+2025-09-01 13:16:57 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 977
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:51:22 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:51:22 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:51:22 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 4:51:23 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND heading LIKE 'a%'' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 4:52:13 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND heading LIKE 'a%'' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 4:52:13 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND heading LIKE 'al%'' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 4:52:14 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND heading LIKE 'all%'' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 4:53:43 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND heading LIKE 'a%'' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 4:53:44 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND heading LIKE 'ap%'' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:56:59 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:56:59 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:56:59 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 4:57:00 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:57:00 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:57:00 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:57:00 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:57:00 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:57:08 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "product_id" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 932
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:57:08 - PHP Unknown:  html_entity_decode(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 933
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "model" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 934
+2025-09-02 4:57:08 - PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 936
+2025-09-02 5:15:38 - PHP Warning:  Undefined variable $sql in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 38
+2025-09-02 5:15:38 - PHP Unknown:  mysqli::query(): Passing null to parameter #1 ($query) of type string is deprecated in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 5:18:52 - PHP Warning:  Undefined array key "filter_author" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:19:19 - PHP Warning:  Undefined array key "filter_author" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 37
+2025-09-02 5:19:58 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:19:58 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:39 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:39 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:40 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:40 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:43 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:43 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:44 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:44 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:44 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:44 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:46 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:46 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:47 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:47 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:20:50 - PHP Warning:  Undefined array key "filter_auther" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 36
+2025-09-02 5:20:50 - PHP Warning:  Undefined array key "filter_heading_" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 39
+2025-09-02 5:37:42 - PHP Unknown:  Optional parameter $data declared before required parameter $blog_id is implicitly treated as a required parameter in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 43
+2025-09-02 5:38:08 - PHP Warning:  Undefined variable $blog_id in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 46
+2025-09-02 5:38:08 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 5:39:25 - PHP Warning:  Undefined variable $blog_id in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 46
+2025-09-02 5:39:25 - PHP Warning:  mysqli::query(): (42000/1064): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 25
+2025-09-02 5:39:57 - PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 63
+2025-09-02 5:39:57 - PHP Warning:  Undefined variable $filter_model in C:\xampp\htdocs\upload\admin\controller\catalog\product.php on line 388
+2025-09-02 5:40:34 - PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 63
+2025-09-02 5:44:51 - PHP Warning:  Undefined array key "total" in C:\xampp\htdocs\upload\admin\model\catalog\product.php on line 64
+2025-09-15 9:22:45 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-15 9:22:45 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-15 9:22:45 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-15 9:23:10 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-15 9:23:10 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-15 9:23:10 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:28:45 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:28:45 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:28:45 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:22 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:22 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:22 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:23 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:29:24 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:30:05 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:30:05 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-24 10:30:05 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\upload\system\engine\action.php on line 65
+2025-09-25 10:44:43 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\vitus_care\admin\upload\system\engine\action.php on line 65
+2025-09-25 10:44:43 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\vitus_care\admin\upload\system\engine\action.php on line 65
+2025-09-25 10:44:43 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\vitus_care\admin\upload\system\engine\action.php on line 65

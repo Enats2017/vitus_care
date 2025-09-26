@@ -36,9 +36,9 @@ const OutsourceUnit = () => {
     // Sample data for the WorkingProcess component
     const workingProcessData = [
         {
-            title: 'Upfront Buyout',
+            title: 'Replacement of CAPEX',
             subTitle:
-                'All expenses required to setup the unit and <br/> potential to invest further with growth',
+                'Replace your old infrastructure with new state of the art Dialysis infrastructure',
             iconUrl: '/images/home_2/wording_process_icon_1.svg',
             number: '01',
         },
@@ -313,7 +313,7 @@ const OutsourceUnit = () => {
             {/* Working Process Section */}
             <Section topMd={105} bottomMd={105}>
                 <WorkingProcess
-                    sectionTitle="HASSLE FREE END-TO-END MANAGEMENT OF THE CENTER"
+                    sectionTitle="Hassle Free END-TO-END"
                     sectionTitleUp="How Do We Do It?"
                     sectionTitleDown="SPENDS & MANAGEMENT OF THE CENTER"
                     sectionSubTitle="How VitusCare ensures a seamless dialysis unit setup"
