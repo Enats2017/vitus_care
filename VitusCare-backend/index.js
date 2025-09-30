@@ -19,7 +19,7 @@ dotenv.config(); // will always be on top
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:3000', 'https://myproductiondomain.com', 'http://3.6.126.15', 'http://3.6.126.15:3000'];
+const allowedOrigins = ['http://localhost:3000', 'http://localhost:7000', 'https://myproductiondomain.com', 'http://3.6.126.15', 'http://3.6.126.15:3000'];
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.indexOf(origin) !== -1) {
@@ -27,7 +27,10 @@ app.use(cors({
     } else {
       callback(new Error('Not allowed by CORS'));
     }
-  }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'], // include other headers if needed
+  credentials: true
 }));
 
 app.use(express.json());
