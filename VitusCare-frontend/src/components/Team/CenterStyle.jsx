@@ -13,6 +13,7 @@ export default function CenterStyle({
   pinCode,
   distance, // New distance prop
 }) {
+  console.log("🖼️ Image received in CenterStyle:", imgUrl);
   return (
     <div className="cs_team cs_style_1 cs_type_2 cs_radius_20 overflow-hidden">
       <div className="cs_member_img">

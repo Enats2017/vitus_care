@@ -155,16 +155,20 @@ const updateCentre = async (req, res) => {
 const getAllCenters = async (req, res) => {
   try {
     const centers = await Centre.find().sort({ state: 1 });
+
+    console.log("📌 Centers fetched from DB:", centers); // <-- log data
+
     if (!centers || centers.length === 0) {
       return res.status(404).json({ success: false, message: 'No centers found' });
     }
 
     return res.status(200).json({ success: true, centres: centers });
   } catch (error) {
-    console.log("Error occured while fetching centers");
-    return res.status(500).json({ success: false, message: "Error occured while fetching centers" })
+    console.log("❌ Error occurred while fetching centers:", error.message);
+    return res.status(500).json({ success: false, message: "Error occurred while fetching centers" })
   }
-}
+};
+
 
 const findCentre = async (req, res) => {
   const { lat, lng, input, selectedPlaceId } = req.query;

@@ -357,7 +357,7 @@ export default function Home() {
         bottomLg={140}
         bottomXl={100}
         className="customised_section_bd"
-        style={{ backgroundImage: `url(/images/home_1/department_bg.svg)` }}
+        style={{ backgroundImage: `url(/images/home_2/new.jpeg)` }}
       >
         <FeaturesSection sectionTitle="Our Values" data={featureListData} />
       </Section>
@@ -384,7 +384,7 @@ export default function Home() {
       <Section topMd={185} topLg={150} topXl={110}>
         <DepartmentSection
           sectionTitle="Services"
-          bgUrl="images/home_1/department_bg.svg"
+          bgUrl="images/home_2/new.jpeg"
           data={departmentData}
         />
       </Section>
@@ -399,7 +399,7 @@ export default function Home() {
       {/* not using testimonial index file */}
       <Section
         className="cs_bg_filed"
-        style={{ backgroundImage: `url(/images/home_2/testimonial_bg.svg)`, marginTop: "35px" }}
+        style={{ backgroundImage: `url(/images/home_2/new.jpeg)`, marginTop: "35px" }}
         topMd={190}
         topLg={145}
         topXl={105}
@@ -417,7 +417,7 @@ export default function Home() {
       {/* Start Banner Section */}
       <Section>
         <Banner
-          bgUrl="images/home_1/cta_bg.svg"
+          bgUrl="images/home_1/new1.jpeg"
           imgUrl="images/GFR.png"
           title="Find About Your Kidney Health Now !"
           subTitle=""

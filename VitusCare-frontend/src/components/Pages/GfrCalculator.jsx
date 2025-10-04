@@ -162,7 +162,7 @@ export default function GFRCalculator() {
                       <div
                         className="relative w-full h-auto flex flex-col items-center justify-center bg-cover bg-center"
                         style={{
-                          backgroundImage: "url('images/home_1/cta_bg.svg')",
+                          backgroundImage: "url('images/home_1/new1.jpeg')",
                         }}
                       >
                         <img

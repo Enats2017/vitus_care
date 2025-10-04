@@ -1092,7 +1092,7 @@ const feedback = async (req, res) => {
 
   const adminMailOption = {
     from: process.env.OUTLOOK_EMAIL,
-    to: "abhayenats@gmail.com",
+    to: "saumya.pokhariyal@vituscare.com",
     subject: "New FeedBack Received",
     html: `
      <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -2199,7 +2199,7 @@ const doctorPartnership = async (req, res) => {
 
   const adminMailOption = {
     from: process.env.OUTLOOK_EMAIL,
-    to: "abhishek.y2060@gmail.com",
+    to: "naveen.kumar@vituscare.com, prabhat@vituscare.com",
     subject: "New Partner Enquiry Received: VitusCare Collaboration Request",
     html: `
     <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -2580,44 +2580,25 @@ const doctorPartnership = async (req, res) => {
     `,
   };
 
-  try {
-    await transporter.sendMail(mailOptionUser);
-    await transporter.sendMail(adminMailOption);
-    const auth = new google.auth.GoogleAuth({
-      keyFile: CREDENTIALS_PATH,
-      scopes: SCOPES,
-    });
-    const sheets = google.sheets({
-      version: "v4",
-      auth: await auth.getClient(),
-    });
-    const spreadsheetId = process.env.GOOGLE_SHEET_ID_FOR_Outsource_Vituscare1;
-    const range = "Sheet1!A:D"; // adjust to your sheet range
+try {
+  // Send emails
+  await transporter.sendMail(mailOptionUser);
+  await transporter.sendMail(adminMailOption);
 
-    await sheets.spreadsheets.values.append({
-      spreadsheetId,
-      range,
-      valueInputOption: "RAW",
-      resource: {
-        values: [
-          [city, name, phone, email, qualification, new Date().toISOString()],
-        ],
-      },
-    });
+  return res.status(200).json({
+    success: true,
+    message: "Inquiry submitted successfully!",
+  });
+} catch (error) {
+  console.log("Error occurred while sending brown field mail", error);
 
-    return res.status(200).json({
-      success: true,
-      message: "Inquiry submitted successfully!",
-    });
-  } catch (error) {
-    console.log("Error occured while sending brown field mail", error);
+  return res.status(500).json({
+    success: false,
+    message: "Failed to send brown field mail",
+    error: error.message,
+  });
+}
 
-    return res.status(500).json({
-      success: false,
-      message: "Failed to send brown field mail",
-      error: error.message,
-    });
-  }
 };
 
 module.exports = {

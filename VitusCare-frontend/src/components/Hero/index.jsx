@@ -83,7 +83,7 @@ export default function Hero({
       </section>
       <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110}>
         <FunFactSection
-          bgUrl="images/about/fun_fact_bg.jpeg"
+          bgUrl="images/about/new2.jpeg"
           data={funFactData}
         />
       </Section>
