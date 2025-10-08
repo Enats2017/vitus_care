@@ -206,7 +206,7 @@ export default function About() {
   return (
     <>
       <BannerSectionStyle3
-        bgUrl="/images/about/banner_bg.svg"
+        bgUrl="/images/home_2/new.jpeg"
         imgUrl="/images/about/iStock-1298800629.jpg"
         title="Welcome to <br />VitusCare Medlife"
         subTitle="We Make Quality Dialysis Accessible"
@@ -256,13 +256,13 @@ export default function About() {
             marginBottom: "20px",
           }}
         >
-          <h3>Watch Our Introduction Video</h3>
+          <h3>A message from our Founder</h3>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <iframe
             width="800"
             height="450"
-            src="https://www.youtube.com/embed/KZ4NJok8-vY"
+            src="https://www.youtube.com/embed/KZ4NJok8-vY?autoplay=1&mute=1"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

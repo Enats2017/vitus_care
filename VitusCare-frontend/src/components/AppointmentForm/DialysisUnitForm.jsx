@@ -180,7 +180,7 @@ export default function DialysisUnitForm({ onSuccess }) {
 
             {/* Submit Button */}
             <div className="col-lg-12">
-                <button className="cs_btn cs_style_1" type="submit">
+                <button className="cs_btn cs_style_1" type="submit" style={{ marginBottom: "33px" }}>
                     <span>Submit</span>
                     <i>
                         <img src="/images/icons/arrow_white.svg" alt="Icon" />
