@@ -535,15 +535,15 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 
-			if ($system) {
-				$data['menus'][] = array(
-					'id'       => 'menu-system',
-					'icon'	   => 'fa-cog',
-					'name'	   => $this->language->get('text_system'),
-					'href'     => '',
-					'children' => $system
-				);
-			}
+			// if ($system) {
+			// 	$data['menus'][] = array(
+			// 		'id'       => 'menu-system',
+			// 		'icon'	   => 'fa-cog',
+			// 		'name'	   => $this->language->get('text_system'),
+			// 		'href'     => '',
+			// 		'children' => $system
+			// 	);
+			// }
 
 			$report = array();
 

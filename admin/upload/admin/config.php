@@ -11,7 +11,7 @@ define('HTTPS_CATALOG', 'http://localhost/vitus_care/admin/upload/');
 define('DIR_APPLICATION', 'C:/xampp/htdocs/vitus_care/admin/upload/admin/');
 define('DIR_SYSTEM', 'C:/xampp/htdocs/vitus_care/admin/upload/system/');
 define('DIR_IMAGE', 'C:/xampp/htdocs/vitus_care/admin/upload/image/');
-define('DIR_STORAGE', 'C:/xampp/htdocs/vitus_care/admin/storage/');
+define('DIR_STORAGE', 'C:/xampp/htdocs/vitus_care/admin/upload/admin/storage/');
 define('DIR_CATALOG', 'C:/xampp/htdocs/vitus_care/admin/upload/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');

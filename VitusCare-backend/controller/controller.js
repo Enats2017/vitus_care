@@ -93,7 +93,7 @@ const getBlogs = async (req, res) => {
     return res.status(200).json({ success: true, data: blogs });
   } catch (err) {
     console.error("Error fetching blogs:", err.message);
-    return res.status(500).json({ success: false, message: "Server error" });
+    return res.status(500).json({ success: false, message: 'hii' });
   }
 };
 

@@ -4,6 +4,7 @@ import BlogSectionStyle2 from "../Section/BlogSection/BlogSectionStyle2";
 import Breadcrumb from "../Breadcrumb";
 import { pageTitle } from "../../helpers/PageTitle";
 import axios from "axios";
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -13,7 +14,7 @@ export default function Blog() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await axios.get("http://localhost:7000/api/blogs");
+        const res = await axios.get(`${BASE_URL}/api/blogs`);
         const blogsArray = res.data.data;
 
         if (!Array.isArray(blogsArray)) {

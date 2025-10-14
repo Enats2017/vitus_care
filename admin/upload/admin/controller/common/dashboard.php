@@ -32,23 +32,23 @@ class ControllerCommonDashboard extends Controller {
 		$this->load->model('setting/extension');
 
 		// Get a list of installed modules
-		$extensions = $this->model_setting_extension->getInstalled('dashboard');
+		// $extensions = $this->model_setting_extension->getInstalled('dashboard');
 
 		// Add all the modules which have multiple settings for each module
-		foreach ($extensions as $code) {
-			if ($this->config->get('dashboard_' . $code . '_status') && $this->user->hasPermission('access', 'extension/dashboard/' . $code)) {
-				$output = $this->load->controller('extension/dashboard/' . $code . '/dashboard');
+		// foreach ($extensions as $code) {
+		// 	if ($this->config->get('dashboard_' . $code . '_status') && $this->user->hasPermission('access', 'extension/dashboard/' . $code)) {
+		// 		$output = $this->load->controller('extension/dashboard/' . $code . '/dashboard');
 
-				if ($output) {
-					$dashboards[] = array(
-						'code'       => $code,
-						'width'      => $this->config->get('dashboard_' . $code . '_width'),
-						'sort_order' => $this->config->get('dashboard_' . $code . '_sort_order'),
-						'output'     => $output
-					);
-				}
-			}
-		}
+		// 		if ($output) {
+		// 			$dashboards[] = array(
+		// 				'code'       => $code,
+		// 				'width'      => $this->config->get('dashboard_' . $code . '_width'),
+		// 				'sort_order' => $this->config->get('dashboard_' . $code . '_sort_order'),
+		// 				'output'     => $output
+		// 			);
+		// 		}
+		// 	}
+		// }
 
 		$sort_order = array();
 

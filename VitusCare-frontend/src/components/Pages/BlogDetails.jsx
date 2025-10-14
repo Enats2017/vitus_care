@@ -17,6 +17,8 @@ import DOMPurify from "dompurify";
 import parse, { domToReact } from "html-react-parser";
 import he from "he"; // ✅ decode like html_entity_decode()
 
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 export default function BlogDetails() {
   pageTitle("Blog Details");
 
@@ -29,7 +31,7 @@ export default function BlogDetails() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const res = await axios.get("http://localhost:7000/api/blogs");
+        const res = await axios.get(`${BASE_URL}/api/blogs`);
         const blogs = res.data.data || res.data;
 
         const found = blogs.find((b) => String(b.id) === String(id));

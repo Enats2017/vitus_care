@@ -151,7 +151,7 @@ class ControllerCatalogProduct extends Controller {
 	}
 
 
-	protected function getList() {
+protected function getList() {
 		if (isset($this->request->get['filter_heading'])) {
 			$filter_heading = $this->request->get['filter_heading'];
 		} else {
@@ -180,6 +180,18 @@ class ControllerCatalogProduct extends Controller {
 			$filter_status = $this->request->get['filter_status'];
 		} else {
 			$filter_status = '';
+		}
+
+		if (isset($this->request->get['filter_start_date'])) {
+			$filter_start_date = $this->request->get['filter_start_date'];
+		} else {
+			$filter_start_date = '';
+		}
+
+		if (isset($this->request->get['filter_end_date'])) {
+			$filter_end_date = $this->request->get['filter_end_date'];
+		} else {
+			$filter_end_date = '';
 		}
 
 		if (isset($this->request->get['sort'])) {
@@ -222,6 +234,14 @@ class ControllerCatalogProduct extends Controller {
 			$url .= '&filter_status=' . $this->request->get['filter_status'];
 		}
 
+		if (isset($this->request->get['filter_start_date'])) {
+			$url .= '&filter_start_date=' . $this->request->get['filter_start_date'];
+		}
+
+		if (isset($this->request->get['filter_end_date'])) {
+			$url .= '&filter_end_date=' . $this->request->get['filter_end_date'];
+		}
+
 		if (isset($this->request->get['order'])) {
 			$url .= '&order=' . $this->request->get['order'];
 		}
@@ -249,11 +269,13 @@ class ControllerCatalogProduct extends Controller {
 		$data['products'] = array();
 
 		$filter_data = array(
-			'filter_heading'	  => $filter_heading,
+			'filter_heading'  => $filter_heading,
 			'filter_author'	  => $filter_author,
 			'filter_price'	  => $filter_price,
 			'filter_quantity' => $filter_quantity,
 			'filter_status'   => $filter_status,
+			'filter_start_date' => $filter_start_date,
+			'filter_end_date' => $filter_end_date,
 			'sort'            => $sort,
 			'order'           => $order,
 			'start' => ($page - 1) * 20,
@@ -281,7 +303,6 @@ class ControllerCatalogProduct extends Controller {
 				'edit'       => $this->url->link('catalog/product/edit', 'user_token=' . $this->session->data['user_token'] . '&blog_id=' . $result['id'] . $url, true)
 			);
 		}
-		// echo '<pre>';print_r($data['products']);exit;
 
 		$data['user_token'] = $this->session->data['user_token'];
 
@@ -327,6 +348,14 @@ class ControllerCatalogProduct extends Controller {
 			$url .= '&filter_status=' . $this->request->get['filter_status'];
 		}
 
+		if (isset($this->request->get['filter_start_date'])) {
+			$url .= '&filter_start_date=' . $this->request->get['filter_start_date'];
+		}
+
+		if (isset($this->request->get['filter_end_date'])) {
+			$url .= '&filter_end_date=' . $this->request->get['filter_end_date'];
+		}
+
 		if ($order == 'ASC') {
 			$url .= '&order=DESC';
 		} else {
@@ -366,6 +395,14 @@ class ControllerCatalogProduct extends Controller {
 			$url .= '&filter_status=' . $this->request->get['filter_status'];
 		}
 
+		if (isset($this->request->get['filter_start_date'])) {
+			$url .= '&filter_start_date=' . $this->request->get['filter_start_date'];
+		}
+
+		if (isset($this->request->get['filter_end_date'])) {
+			$url .= '&filter_end_date=' . $this->request->get['filter_end_date'];
+		}
+
 		if (isset($this->request->get['sort'])) {
 			$url .= '&sort=' . $this->request->get['sort'];
 		}
@@ -390,9 +427,10 @@ class ControllerCatalogProduct extends Controller {
         ceil($product_total / 20)
         );
 
-
 		$data['filter_heading'] = $filter_heading;
 		$data['filter_author'] = $filter_author;
+		$data['filter_start_date'] = $filter_start_date;
+		$data['filter_end_date'] = $filter_end_date;
 		
 		$data['sort'] = $sort;
 		$data['order'] = $order;

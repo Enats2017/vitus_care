@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']          = 'Products';
+$_['heading_title']          = 'Blogs';
 
 // Text
 $_['text_success']           = 'Success: You have modified products!';
-$_['text_list']              = 'Product List';
-$_['text_add']               = 'Add Product';
+$_['text_list']              = 'Blogs List';
+$_['text_add']               = 'Add Blogs';
 $_['text_edit']              = 'Edit Product';
 $_['text_filter']            = 'Filter';
 $_['text_plus']              = '+';

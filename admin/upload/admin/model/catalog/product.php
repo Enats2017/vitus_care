@@ -5,8 +5,6 @@ class ModelCatalogProduct extends Model {
 	}
 
 	public function editProduct($blog_id, $data) {
-		// echo '<pre>';print_r($data);exit;
-		// echo '<pre>';print_r("UPDATE `oc_blog` SET heading = '" . $this->db->escape($data['heading']) . "',image = '" . $this->db->escape($data['image']) . "', author = '" . $this->db->escape($data['author']) . "', date_publish = '" . $this->db->escape($data['date_publish']) . "', blog_content = '" . $this->db->escape($data['description']) . "' WHERE id = '" . (int)$blog_id . "'");exit;
 		$this->db->query("UPDATE `oc_blog` SET heading = '" . $this->db->escape($data['heading']) . "',image = '" . $this->db->escape($data['image']) . "', author = '" . $this->db->escape($data['author']) . "', date_publish = '" . $this->db->escape($data['date_publish']) . "', blog_content = '" . $this->db->escape($data['description']) . "' WHERE id = '" . (int)$blog_id . "'");
 	}
 	
@@ -37,11 +35,16 @@ public function getProducts($data = array()) {
     if (isset($this->request->get['filter_heading_']) && $this->request->get['filter_heading_'] !== '') {
         $sql .= " AND `heading` LIKE '" . $this->db->escape($this->request->get['filter_heading_']) . "%'";
     }
+    if (!empty($data['filter_start_date']) && !empty($data['filter_end_date'])) {
+        $sql .= " AND `date_publish` BETWEEN '" . $this->db->escape($data['filter_start_date']) . "' AND '" . $this->db->escape($data['filter_end_date']) . "'";
+    } elseif (!empty($data['filter_start_date'])) {
+        $sql .= " AND `date_publish` >= '" . $this->db->escape($data['filter_start_date']) . "'";
+    } elseif (!empty($data['filter_end_date'])) {
+        $sql .= " AND `date_publish` <= '" . $this->db->escape($data['filter_end_date']) . "'";
+    }
 
-    // Add order if needed (optional)
     $sql .= " ORDER BY date_publish DESC";
 
-    //  Add LIMIT for pagination
     if (isset($data['start']) || isset($data['limit'])) {
         $start = (int)$data['start'];
         $limit = (int)$data['limit'];
@@ -51,7 +54,7 @@ public function getProducts($data = array()) {
         }
 
         if ($limit < 1) {
-            $limit = 20; // default fallback
+            $limit = 20;
         }
 
         $sql .= " LIMIT " . $start . "," . $limit;
@@ -63,13 +66,12 @@ public function getProducts($data = array()) {
 }
 
 	public function getProductStores($blog_id) {
-    return array(); // no store-specific blogs
+    return array();
 }
 
 	public function getTotalProducts($data = array()) {
-		$sql = "SELECT COUNT(*) AS total FROM `oc_blog` WHERE 1"; // Start with WHERE 1 for easy AND concatenation
+		$sql = "SELECT COUNT(*) AS total FROM `oc_blog` WHERE 1";
 	
-		// Filters from $data
 		if (!empty($data['filter_heading'])) {
 			$sql .= " AND `heading` LIKE '" . $this->db->escape($data['filter_heading']) . "%'";
 		}
@@ -77,7 +79,6 @@ public function getProducts($data = array()) {
 			$sql .= " AND `author` LIKE '" . $this->db->escape($data['filter_author']) . "%'";
 		}
 	
-		// Filters from request (optional override)
 		if (isset($this->request->get['filter_heading_']) && $this->request->get['filter_heading_'] !== '') {
 			$sql .= " AND `heading` LIKE '" . $this->db->escape($this->request->get['filter_heading_']) . "%'";
 		}
@@ -85,11 +86,16 @@ public function getProducts($data = array()) {
 			$sql .= " AND `author` LIKE '" . $this->db->escape($this->request->get['filter_author']) . "%'";
 		}
 	
+		if (!empty($data['filter_start_date']) && !empty($data['filter_end_date'])) {
+			$sql .= " AND `date_publish` BETWEEN '" . $this->db->escape($data['filter_start_date']) . "' AND '" . $this->db->escape($data['filter_end_date']) . "'";
+		} elseif (!empty($data['filter_start_date'])) {
+			$sql .= " AND `date_publish` >= '" . $this->db->escape($data['filter_start_date']) . "'";
+		} elseif (!empty($data['filter_end_date'])) {
+			$sql .= " AND `date_publish` <= '" . $this->db->escape($data['filter_end_date']) . "'";
+		}
+	
 		$query = $this->db->query($sql);
 	
 		return (int)$query->row['total'];
 	}
-	
-
-	
 }

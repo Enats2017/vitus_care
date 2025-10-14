@@ -1,4 +1,5 @@
-const db = require("../config/dbsql");
+const path = require("path");
+const db = require(path.resolve(__dirname, "../config/dbsql"));
 
 const Blog = {
   getAll: () => {

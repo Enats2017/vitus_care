@@ -610,3 +610,5 @@
 2025-09-25 10:44:43 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\vitus_care\admin\upload\system\engine\action.php on line 65
 2025-09-25 10:44:43 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\vitus_care\admin\upload\system\engine\action.php on line 65
 2025-09-25 10:44:43 - PHP Unknown:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\xampp\htdocs\vitus_care\admin\upload\system\engine\action.php on line 65
+2025-10-10 5:29:25 - PHP Warning:  Undefined variable $extensions in C:\xampp\htdocs\vitus_care\admin\upload\admin\controller\common\dashboard.php on line 38
+2025-10-10 5:29:25 - PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\vitus_care\admin\upload\admin\controller\common\dashboard.php on line 38
