@@ -5,6 +5,7 @@ import Breadcrumb from "../Breadcrumb";
 import { pageTitle } from "../../helpers/PageTitle";
 import axios from "axios";
 const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL_IMAGE = process.env.REACT_APP_BASE_URL_IMAGE;
 
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -25,7 +26,9 @@ export default function Blog() {
         const formattedBlogs = blogsArray.map((blog) => ({
           id: blog.id,
           title: blog.heading || "Untitled Blog",
-          thumbUrl: blog.image || "images/blog/default.jpg",
+          // thumbUrl: blog.image || "images/blog/default.jpg",
+          // thumbUrl: `${BASE_URL}/admin/${blog.image.replace(/^\//, "")}`,  //live
+          thumbUrl: `${BASE_URL_IMAGE}/${blog.image.replace(/^\//, "")}`,     // local
           date: new Date(blog.date_publish).toLocaleDateString("en-US", {
             month: "short",
             day: "numeric",

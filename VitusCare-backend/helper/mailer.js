@@ -2199,7 +2199,7 @@ const doctorPartnership = async (req, res) => {
 
   const adminMailOption = {
     from: process.env.OUTLOOK_EMAIL,
-    to: "naveen.kumar@vituscare.com, prabhat@vituscare.com",
+    to: "abhishek.y2060@gmail.com",
     subject: "New Partner Enquiry Received: VitusCare Collaboration Request",
     html: `
     <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">

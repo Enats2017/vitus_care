@@ -54,7 +54,7 @@ export default function Centers() {
         <CenterListStyle data={centers} />
       </Section>
 
-      <Section className="cs_footer_margin_0">
+      <Section className="cs_footer_margin_0" style={{ marginBottom: '50px' }}>
         <BannerSectionStyle4
           bgUrl="images/centers/banner_bg_2.jpeg"
           title="Visit Our Nearest Center"

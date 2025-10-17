@@ -58,7 +58,7 @@ function ForDoctor() {
           data={workingProcessData}
         />
       </Section>
-      <Section
+      {/* <Section
         topMd={145}
         topLg={100}
         topXl={100}
@@ -71,7 +71,7 @@ function ForDoctor() {
           subTitle="Together, Let us re-define dialysis care and create a brighter future for all kidney patients!"
           center
         />
-      </Section>
+      </Section> */}
       <Section topMd={100} topLg={120} topXl={100}>
         <div
           className="out_side_form"

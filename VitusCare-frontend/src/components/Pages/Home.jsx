@@ -327,7 +327,7 @@ export default function Home() {
         bgUrl="/images/home_1/hero_bg.jpeg"
         imgUrl="/images/home_1/hero_img_1.png"
         videoBtnText="See how we work"
-        videoUrl="https://www.youtube.com/embed/A8frKbB-9jw"
+        videoUrl="https://www.youtube.com/embed/KZ4NJok8-vY"
         infoList={[
           {
             title: 'Hotline',

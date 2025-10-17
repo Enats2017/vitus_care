@@ -25,7 +25,7 @@ const OutsourceUnit = () => {
             body: "Cost towards operations and consumables become effective only beyond a certain scale",
         },
         {
-            header: "REACHING PATIENTS IN CAPS",
+            header: "REACHING PATIENTS",
             body: "Reaching out to dialysis patients requires a focused approach vs a multi-specialty way of marketing",
         },
         {
@@ -70,19 +70,19 @@ const OutsourceUnit = () => {
             iconUrl: '/images/home_2/wording_process_icon_5.svg',
             number: '05',
         },
-        {
-            title: 'MARKETING',
-            subTitle:
-                'CO-branded marketing initiatives across <br/> multiple channels to each patints',
-            iconUrl: '/images/home_2/wording_process_icon_6.svg',
-            number: '06',
-        },
+        // {
+        //     title: 'MARKETING',
+        //     subTitle:
+        //         'CO-branded marketing initiatives across <br/> multiple channels to each patints',
+        //     iconUrl: '/images/home_2/wording_process_icon_6.svg',
+        //     number: '06',
+        // },
         {
             title: 'EQUIPMENT MAINTENANCE',
             subTitle:
                 'Rigorous preventive maintenance schedule <br/> and dedicated terms for reactive maintenance',
             iconUrl: '/images/home_2/wording_process_icon_7.svg',
-            number: '07',
+            number: '06',
         }
     ];
 
@@ -374,7 +374,8 @@ const OutsourceUnit = () => {
                 </Container>
             </Section>
 
-            <Section topMd={100} topLg={120} topXl={100}>
+            {/* <Section topMd={100} topLg={120} topXl={100}> */}
+            <Section>
                 <div className="out_side_form" style={{margin:'0 auto', padding:'4px'}}>
                     <h2 className="red_color cs_fs_40 cs_medium mb-0">Reach Out To Us</h2>
                     <div className="cs_height_42 cs_height_xl_25" />

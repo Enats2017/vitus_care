@@ -18,6 +18,8 @@ import parse, { domToReact } from "html-react-parser";
 import he from "he"; // ✅ decode like html_entity_decode()
 
 const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL_IMAGE = process.env.REACT_APP_BASE_URL_IMAGE;
+
 
 export default function BlogDetails() {
   pageTitle("Blog Details");
@@ -103,7 +105,12 @@ export default function BlogDetails() {
         <Spacing md="55" />
 
         <img
-          src={blog.image}
+          src={
+            blog.image
+              ? `${BASE_URL_IMAGE}/${blog.image.replace(/^\//, "")}` // local
+              // ? `${BASE_URL}/admin/${blog.image.replace(/^\//, "")}` // live
+              : "/images/blog/default.jpg"
+          }
           alt={blog.heading}
           className="w-100 cs_radius_20"
         />
@@ -131,7 +138,7 @@ export default function BlogDetails() {
           </div>
         </div>
       </div>
-{/* 
+      {/* 
       <Spacing md="200" xl="150" lg="110" />
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle9

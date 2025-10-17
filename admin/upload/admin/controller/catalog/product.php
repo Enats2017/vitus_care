@@ -1,8 +1,10 @@
 <?php
-class ControllerCatalogProduct extends Controller {
+class ControllerCatalogProduct extends Controller
+{
 	private $error = array();
 
-	public function index() {
+	public function index()
+	{
 		$this->load->language('catalog/product');
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -12,29 +14,49 @@ class ControllerCatalogProduct extends Controller {
 		$this->getList();
 	}
 
-	public function add() {
+	public function add()
+	{
 		$this->load->language('catalog/product');
 		$this->document->setTitle($this->language->get('heading_title'));
 		$this->load->model('catalog/product');
 		if (!empty($this->request->files['image']['name'])) {
 			$filename = basename($this->request->files['image']['name']);
-			$target = DIR_IMAGE . 'catalog/' . $filename;
-			move_uploaded_file($this->request->files['image']['tmp_name'], $target);
-			$this->request->post['image'] = 'catalog/' . $filename;
+			$targetDir = '/var/www/html/admin/upload/admin/image/catalog/';
+			if (!is_dir($targetDir)) {
+				mkdir($targetDir, 0755, true);
+			}
+			$target = $targetDir . $filename;
+			if (move_uploaded_file($this->request->files['image']['tmp_name'], $target)) {
+				$this->request->post['image'] = 'image/catalog/' . $filename;
+			} else {
+				$this->request->post['image'] = '';
+			}
 		} else {
 			$this->request->post['image'] = '';
 		}
-		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
+
+		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
+
+			// Debug: print the submitted form data
+			// echo '<pre>';
+			// print_r($this->request->post);
+			// echo '</pre>';
+			// exit;
+			// stop execution so you can inspect the data
+
+			// Original code
 			$this->model_catalog_product->addProduct($this->request->post);
 			$this->session->data['success'] = $this->language->get('text_success');
 			$url = '';
 			$this->response->redirect($this->url->link('catalog/product', 'user_token=' . $this->session->data['user_token'] . $url, true));
 		}
 
+
 		$this->getForm();
 	}
 
-	public function edit() {
+	public function edit()
+	{
 		$this->load->language('catalog/product');
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -42,17 +64,20 @@ class ControllerCatalogProduct extends Controller {
 		$this->load->model('catalog/product');
 		if (!empty($this->request->files['image']['name'])) {
 			$filename = basename($this->request->files['image']['name']);
-			$target = DIR_IMAGE . 'catalog/' . $filename;
-			move_uploaded_file($this->request->files['image']['tmp_name'], $target);
-			$this->request->post['image'] = 'catalog/' . $filename;
-		} else {
-			if (isset($this->request->post['existing_image'])) {
-				$this->request->post['image'] = $this->request->post['existing_image'];
+			$targetDir = '/var/www/html/admin/upload/admin/image/catalog/';
+			if (!is_dir($targetDir)) {
+				mkdir($targetDir, 0755, true);
+			}
+			$target = $targetDir . $filename;
+			if (move_uploaded_file($this->request->files['image']['tmp_name'], $target)) {
+				$this->request->post['image'] = 'image/catalog/' . $filename;
 			} else {
 				$this->request->post['image'] = '';
 			}
+		} else {
+			$this->request->post['image'] = '';
 		}
-		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
+		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
 			$this->model_catalog_product->editProduct($this->request->get['blog_id'], $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
@@ -97,7 +122,8 @@ class ControllerCatalogProduct extends Controller {
 		$this->getForm();
 	}
 
-	public function delete() {
+	public function delete()
+	{
 		$this->load->language('catalog/product');
 
 		$this->document->setTitle($this->language->get('heading_title'));
@@ -151,7 +177,8 @@ class ControllerCatalogProduct extends Controller {
 	}
 
 
-protected function getList() {
+	protected function getList()
+	{
 		if (isset($this->request->get['filter_heading'])) {
 			$filter_heading = $this->request->get['filter_heading'];
 		} else {
@@ -269,7 +296,7 @@ protected function getList() {
 		$data['products'] = array();
 
 		$filter_data = array(
-			'filter_heading'  => $filter_heading,
+			'filter_heading'	  => $filter_heading,
 			'filter_author'	  => $filter_author,
 			'filter_price'	  => $filter_price,
 			'filter_quantity' => $filter_quantity,
@@ -296,7 +323,10 @@ protected function getList() {
 			}
 			$data['products'][] = array(
 				'blog_id' => $result['id'],
-				'image'      => $image,
+				'image' => !empty($result['image'])
+					? 'http://13.203.85.227/admin/' . $result['image']
+					: 'http://13.203.85.227/admin/upload/no_image.png',
+
 				'heading'      => $result['heading'],
 				'auther_name'       => $result['author'],
 				'date_publish'      => $result['date_publish'],
@@ -420,18 +450,18 @@ protected function getList() {
 		$data['pagination'] = $pagination->render();
 
 		$data['results'] = sprintf(
-        $this->language->get('text_pagination'),
-        ($product_total) ? (($page - 1) * 20) + 1 : 0,
-        ((($page - 1) * 20) > ($product_total - 20)) ? $product_total : ((($page - 1) * 20) + 20),
-        $product_total,
-        ceil($product_total / 20)
-        );
+			$this->language->get('text_pagination'),
+			($product_total) ? (($page - 1) * 20) + 1 : 0,
+			((($page - 1) * 20) > ($product_total - 20)) ? $product_total : ((($page - 1) * 20) + 20),
+			$product_total,
+			ceil($product_total / 20)
+		);
 
 		$data['filter_heading'] = $filter_heading;
 		$data['filter_author'] = $filter_author;
 		$data['filter_start_date'] = $filter_start_date;
 		$data['filter_end_date'] = $filter_end_date;
-		
+
 		$data['sort'] = $sort;
 		$data['order'] = $order;
 
@@ -442,8 +472,9 @@ protected function getList() {
 		$this->response->setOutput($this->load->view('catalog/product_list', $data));
 	}
 
-	protected function getForm() {
-		
+	protected function getForm()
+	{
+
 		$data['text_form'] = !isset($this->request->get['product_id']) ? $this->language->get('text_add') : $this->language->get('text_edit');
 
 		if (isset($this->error['warning'])) {
@@ -533,7 +564,14 @@ protected function getList() {
 		if (isset($this->request->get['blog_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
 			$product_info = $this->model_catalog_product->getProduct($this->request->get['blog_id']);
 		}
-		
+
+		// Debug: print the result
+		// echo '<pre>';
+		// print_r($product_info);
+		// echo '</pre>';
+		// exit; 
+		// stop execution so you can see it
+
 		$data['user_token'] = $this->session->data['user_token'];
 
 		$this->load->model('localisation/language');
@@ -547,7 +585,7 @@ protected function getList() {
 		} else {
 			$data['heading'] = '';
 		}
-		
+
 		if (isset($this->request->post['description'])) {
 			$data['description'] = $this->request->post['description'];
 		} elseif (isset($this->request->get['blog_id'])) {
@@ -599,7 +637,7 @@ protected function getList() {
 		}
 
 
-		
+
 		// Categories
 		$this->load->model('catalog/category');
 
@@ -875,57 +913,8 @@ protected function getList() {
 		$this->response->setOutput($this->load->view('catalog/product_form', $data));
 	}
 
-	protected function validateForm() {
-		// if (!$this->user->hasPermission('modify', 'catalog/product')) {
-		// 	$this->error['warning'] = $this->language->get('error_permission');
-		// }
-
-		// foreach ($this->request->post['product_description'] as $language_id => $value) {
-		// 	if ((utf8_strlen($value['name']) < 1) || (utf8_strlen($value['name']) > 255)) {
-		// 		$this->error['name'][$language_id] = $this->language->get('error_name');
-		// 	}
-
-		// 	if ((utf8_strlen($value['meta_title']) < 1) || (utf8_strlen($value['meta_title']) > 255)) {
-		// 		$this->error['meta_title'][$language_id] = $this->language->get('error_meta_title');
-		// 	}
-		// }
-
-		// if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
-		// 	$this->error['model'] = $this->language->get('error_model');
-		// }
-
-		// if ($this->request->post['product_seo_url']) {
-		// 	$this->load->model('design/seo_url');
-
-		// 	foreach ($this->request->post['product_seo_url'] as $store_id => $language) {
-		// 		foreach ($language as $language_id => $keyword) {
-		// 			if (!empty($keyword)) {
-		// 				if (count(array_keys($language, $keyword)) > 1) {
-		// 					$this->error['keyword'][$store_id][$language_id] = $this->language->get('error_unique');
-		// 				}
-
-		// 				$seo_urls = $this->model_design_seo_url->getSeoUrlsByKeyword($keyword);
-
-		// 				foreach ($seo_urls as $seo_url) {
-		// 					if (($seo_url['store_id'] == $store_id) && (!isset($this->request->get['product_id']) || (($seo_url['query'] != 'product_id=' . $this->request->get['product_id'])))) {
-		// 						$this->error['keyword'][$store_id][$language_id] = $this->language->get('error_keyword');
-
-		// 						break;
-		// 					}
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// }
-
-		// if ($this->error && !isset($this->error['warning'])) {
-		// 	$this->error['warning'] = $this->language->get('error_warning');
-		// }
-
-		return !$this->error;
-	}
-
-	protected function validateDelete() {
+	protected function validateDelete()
+	{
 		if (!$this->user->hasPermission('modify', 'catalog/product')) {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
@@ -933,15 +922,8 @@ protected function getList() {
 		return !$this->error;
 	}
 
-	protected function validateCopy() {
-		if (!$this->user->hasPermission('modify', 'catalog/product')) {
-			$this->error['warning'] = $this->language->get('error_permission');
-		}
-
-		return !$this->error;
-	}
-
-	public function autocomplete() {
+	public function autocomplete()
+	{
 		$json = array();
 
 		if (isset($this->request->get['filter_heading']) || isset($this->request->get['filter_auther'])) {

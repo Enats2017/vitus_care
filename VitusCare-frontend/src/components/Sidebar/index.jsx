@@ -3,11 +3,13 @@ import SideMenuWidget from '../Widget/SideMenuWidget';
 import RecentPostWidget from '../Widget/RecentPostWidget';
 import NewsletterStyle5 from '../Widget/NewsletterStyle5';
 
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 export default function Sidebar() {
   const [recentPosts, setRecentPosts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:7000/api/blogs')
+    fetch(`${BASE_URL}/api/blogs`)
       .then((res) => res.json())
       .then((result) => {
         // Map API response -> then limit to 10
@@ -32,7 +34,7 @@ export default function Sidebar() {
 
   return (
     <div className="cs_sidebar">
-      <div className="cs_sidebar_item">
+      <div className="cs_sidebar_item" style={{ marginBottom: '50px' }}>
         <RecentPostWidget title="Popular Articles" data={recentPosts} />
       </div>
     </div>

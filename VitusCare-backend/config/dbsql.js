@@ -1,18 +1,45 @@
 const mysql = require("mysql2");
 
-const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",       
-  password: "", 
-  database: "vitus_care"
-});
+let pool;
 
-db.connect((err) => {
-  if (err) {
-    console.error("Database connection failed:1111 " + err.stack);
-    return;
-  }
-  console.log("Connected to database.");
-});
+function createPool() {
+  pool = mysql.createPool({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "vitus_care",
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0,
+  });
 
-module.exports = db;
+  pool.getConnection((err, connection) => {
+    if (err) {
+      console.error("Database connection failed:", err.message);
+      console.log("Retrying connection in 3 seconds...");
+      setTimeout(createPool, 3000);
+    } else {
+      console.log("Connected to database.");
+      connection.release();
+    }
+  });
+
+  pool.on("error", (err) => {
+    console.error("Database error:", err.message);
+    if (
+      err.code === "PROTOCOL_CONNECTION_LOST" ||
+      err.code === "ECONNRESET" ||
+      err.code === "ETIMEDOUT" ||
+      err.code === "PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR"
+    ) {
+      console.log("Attempting to reconnect in 3 seconds...");
+      setTimeout(createPool, 3000);
+    } else {
+      throw err;
+    }
+  });
+}
+
+createPool();
+
+module.exports = pool.promise();
