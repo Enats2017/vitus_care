@@ -78,7 +78,8 @@ export default function Blog() {
   return (
     <>
       <Section topMd={170} bottomMd={96} bottomLg={70}>
-        <Breadcrumb title="Psychology and Life Style" />
+        <Breadcrumb />
+        {/* <Breadcrumb title="Psychology and Life Style" /> */}
       </Section>
 
       <Section bottomMd={100} bottomLg={80} bottomXl={60}>
